@@ -1,0 +1,76 @@
+{
+  "name": "ng-forward",
+  "version": "0.0.1-alpha.12",
+  "description": "The default solution for those that want to write Angular 2.x style code in Angular 1.x",
+  "main": "./index.js",
+  "jsnext:main": "./es6/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ngUpgraders/ng-forward"
+  },
+  "scripts": {
+    "test": "tsd install && gulp build"
+  },
+  "keywords": [
+    "angular",
+    "angular2",
+    "angularjs",
+    "annotations",
+    "decorators",
+    "ecmascript6"
+  ],
+  "contributors": [
+    {
+      "name": "Mike Ryan",
+      "email": "mike.ryan52@gmail.com"
+    },
+    {
+      "name": "Tim Kindberg",
+      "email": "timkindberg@gmail.com"
+    }
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "@reactivex/rxjs": "5.0.0-alpha.7",
+    "reflect-metadata": "^0.1.2"
+  },
+  "devDependencies": {
+    "aliasify": "^1.8.0",
+    "angular": "^1.4.7",
+    "angular-mocks": "^1.4.7",
+    "angular-ui-router": "^0.2.15",
+    "babel": "^5.8.29",
+    "babel-core": "^5.3.0",
+    "babelify": "^6.4.0",
+    "chai": "^3.4.0",
+    "conventional-changelog": "^0.5.1",
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.3.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-filter": "^3.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-typescript": "^2.9.2",
+    "gulp-uglify": "^1.4.2",
+    "karma": "^0.13.14",
+    "karma-angular": "0.0.6",
+    "karma-browserify": "^4.4.0",
+    "karma-chrome-launcher": "^0.2.1",
+    "karma-mocha": "^0.2.0",
+    "karma-mocha-reporter": "^1.1.1",
+    "karma-phantomjs-shim": "^1.1.1",
+    "karma-sinon-chai": "ngUpgraders/karma-lolex-sinon-chai",
+    "karma-sourcemap-loader": "^0.3.6",
+    "merge2": "^0.3.6",
+    "mocha": "^2.3.3",
+    "rimraf": "^2.4.3",
+    "rollup": "^0.20.2",
+    "rollup-babel": "^0.6.1",
+    "run-sequence": "^1.1.4",
+    "sinon": "^1.17.2",
+    "sinon-chai": "^2.8.0",
+    "tsd": "^0.6.5"
+  }
+}
