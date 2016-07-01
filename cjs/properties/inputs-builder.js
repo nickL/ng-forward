@@ -39,7 +39,7 @@ function inputsBuilder(controller, localKey, publicKey) {
     var __stringKey = Symbol();
     var __oneWayKey = Symbol();
     var __twoWayKey = Symbol();
-    // EDITED: Fixes ng-forward Issue#82 - Symbol issue
+    // EDITED: Fixes ng-forward Symbol issue
 
     var __using_binding = '__using_binding';
 
