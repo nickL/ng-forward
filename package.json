@@ -6,7 +6,7 @@
   "jsnext:main": "./es6/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ngUpgraders/ng-forward"
+    "url": "https://github.com/nickL/ng-forward"
   },
   "scripts": {
     "test": "tsd install && gulp build"
